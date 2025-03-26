@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Mini_Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <header>
-        <h1>My First HTML Project</h1>
-        <nav>
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#main"><li>About Me</li></a>
-                <a href="#hobbies"><li>Hobbies</li></a>
-                <a href="#footer"><li>contact Me</li></a>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <h1>My Profile</h1>
+  </header>
 
-    <!-- My Bio -->
-    <section class="bio">
-        <div id="main">
-            <h2>Victor Asiya</h2>
-            <div id="about_me">
-                <h3>About Me</h3>
-                <p>I am a web developer with a passion for creating beautiful and functional websites.<br> 
-                    I have a Bachelor's degree in Computer Science and I have been working as a web developer <br> 
-                    the past 5 years. I am proficient in HTML, CSS, JavaScript, and PHP. <br> 
-                    I am also familiar with WordPress and other content management systems. <br>
-                    I am a quick learner and I am always looking for new challenges to help me grow as a developer.
-                </p>
-            </div>
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
 
-            <div class="image">
-                <img src="./Images/IMG_3781.jpg" alt="Victor Asiya Image">
-            </div>
-        </div>
-
-        <div class="others">
-            <div id="hobbies">
-                <h2>Hobbies</h2>
-                <ul>
-                    <li>Reading</li>
-                    <li>Writing</li>
-                    <li>Travelling</li>
-                    <li>Playing the Bass guitar</li>
-                </ul>
-            </div>
-        </div>
+  <!-- Main Content -->
+  <div class="container">
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="bio">
+        <img src="/Images/IMG_3781.jpg" alt="Profile Picture">
+        <p>
+          Hello! I'm a passionate software developer with a strong foundation in building scalable and efficient applications. 
+          I specialize in web development, AI, and IoT technologies. I'm excited to bring my skills to a dynamic team and 
+          contribute to innovative projects. Let's build something amazing together!
+        </p>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <p>Facebook: <a href="https://web.facebook.com/victor.asiya/">Victor_Asiya</a></p>
-        <p>&copy; 2020 Victor Asiya</p>
-        <p>Phone Number: +2349021659462</p>
-        <p>email: vicasasiya@gmail.com</p>
-    </footer>
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li><strong>Coding:</strong> I love solving problems and building projects that make a difference.</li>
+        <li><strong>Reading:</strong> I enjoy reading tech blogs, sci-fi novels, and self-improvement books.</li>
+        <li><strong>Traveling:</strong> Exploring new places and cultures is one of my favorite ways to unwind.</li>
+        <li><strong>Taekwondo:</strong> I am a passionate Taekwondo practitioner(Brown Belter). Taekwondo, a Korean martial art known for its high-flying kicks and swift footwork, has been a significant part of my life. With its emphasis on discipline, self-control, and respect, Taekwondo has shaped not only my physical abilities but also my character.</li>
+      </ul>
+    </section>
 
+    <!-- Contact Me Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
+    </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Email: <a href="mailto:obuma.meo@example.com">Vicasasiya@gmail.com</a></p>
+    <p>Social Media: 
+      <a href="https://linkedin.com/in/victor-asiya" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Victorasiya" target="_blank">GitHub</a> | 
+      <a href="https://twitter.com/Victorasiya" target="_blank">Twitter</a>
+    </p>
+  </footer>
 </body>
 </html>
